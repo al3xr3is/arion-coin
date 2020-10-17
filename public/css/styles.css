@@ -47,6 +47,7 @@ body, html {
 }
 
 .header .nav-items ul {
+    
     list-style: none;
     display: flex;
 }
@@ -61,7 +62,7 @@ body, html {
     padding: 4px;
     margin: 4px;
     color: #fff;
-    transition: .2s;
+    transition: .3s;
 }
 
 .content-1 {
@@ -136,9 +137,9 @@ body, html {
 .navbar {
     overflow: hidden;
     background-color: rgba(0, 0, 0, 0);
-  }
-  
-  .navbar a {
+}
+
+.navbar a {
     float: left;
     font-size: 16px;
     color: white;
@@ -156,12 +157,12 @@ body, html {
     font-size: 16px;  
     border: none;
     outline: none;
-    color: white;
+    color: #ffffff;
     padding: 14px 16px;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
-    transition: .2s;
+    transition: .3s;
   }
   
   .navbar a:hover, .dropdown:hover .dropbtn {
@@ -172,15 +173,16 @@ body, html {
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
+    background-color: #f9f9f933;
+    border-radius: 4px;
+    min-width: 142px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
   
   .dropdown-content a {
     float: none;
-    color: black;
+    color: #f9f9f9;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -188,9 +190,21 @@ body, html {
   }
   
   .dropdown-content a:hover {
-    background-color: #ddd;
+    background-color: #dddddd;
   }
   
   .dropdown:hover .dropdown-content {
     display: block;
   }
+
+*::-webkit-scrollbar-track {
+    background-color: rgba(128, 114, 114, .2);
+}
+*::-webkit-scrollbar {
+    width: 12px;
+    background-color: rgba(120, 128, 114, 0.2);
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 6px;
+    background: #00ffc6;
+}
