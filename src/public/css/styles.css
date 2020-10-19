@@ -108,23 +108,26 @@ a {
 
 .content-3 {
     height: 100vh;
-    background-image: url('../assets/arion-coin-specs-bkg.png');
+    background-image: url('../assets/arion-coin-spces-bkg.png');
     background-size: cover;
 }
 
 .content-4 {
     height: 100vh;
-    background-color: darkorange;
+    background-image: url('../assets/arion-coin-mini-roadmap-bkg.png');
+    background-size: cover;
 }
 
 .content-5 {
     height: 100vh;
-    background-color: hotpink;
+    background-image: url('../assets/arion-coin-social-media-bkg.png');
+    background-size: cover;
 }
 
 .content-6 {
     height: 100vh;
-    background-color: lightsalmon;
+    background-image: url('../assets/arion-coin-the-team-bkg2.png');
+    background-size: cover;
 }
 
 .footer {
