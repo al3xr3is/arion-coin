@@ -134,13 +134,7 @@ a {
     justify-content: start;
     padding-top: 120px;
     height: 100vh;
-<<<<<<< HEAD
-    background-image: url('../assets/arion-coin-specs-bkg.png');
-    background-repeat: no-repeat;
-    background-position: center bottom;
-=======
     background-image: url('../assets/arion-coin-spces-bkg.png');
->>>>>>> be159285f982250b735fdd332aac9080017c320b
     background-size: cover;
 }
 
