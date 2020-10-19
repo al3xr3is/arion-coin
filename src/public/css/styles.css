@@ -4,15 +4,37 @@
     font-family: Montserrat, sans-serif;
 }
 
+body {
+    background-color: #282828;
+    color: #fff;
+}
+
 a {
     cursor: url('../assets/ponteiro-mouse.png') 2 2, pointer;
+}
+
+.page-topo {
+    position: fixed;
+    z-index: 200;
+    right: 30px;
+    bottom: 30px;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #00ffc873;
+    border-radius: 50px;
+    transition: background-color .2s;
+}
+
+.page-topo:hover {
+    background-color: #01927373;
 }
 
 .container-grid {
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 3fr 3fr 3fr 3fr 3fr 3fr 1fr;
+    grid-template-rows: 1fr 3fr 3fr 3fr 3fr 3fr 3fr 3fr;
     grid-template-areas: "header" "content-1" "content-2" "content-3" "content-4" "content-5" "content-6" "footer";
 }
 
@@ -80,7 +102,6 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: #fff;
     height: 100vh;
     background-image: url('../assets/arion-about-bkg.png');
     background-size: cover;
@@ -107,8 +128,15 @@ a {
 }
 
 .content-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding-top: 120px;
     height: 100vh;
     background-image: url('../assets/arion-coin-specs-bkg.png');
+    background-repeat: no-repeat;
+    background-position: center bottom;
     background-size: cover;
 }
 
@@ -128,8 +156,31 @@ a {
 }
 
 .footer {
-    height: 30vh;
-    background-color: lightslategray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282828;
+    color: #fff;
+}
+
+.footer span p {
+    line-height: 1.8rem;
+}
+
+.footer .social-media {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.social-media img {
+    margin: 0 20px 0 20px; 
+    height: 100px;
+    width: 100px;  
 }
 
 .navbar {
@@ -279,3 +330,24 @@ a {
   .active:after {
     content: "\2796"; /* Unicode character for "minus" sign (-) */
   }
+
+.animate-in {
+    -webkit-animation: fadeIn .3s ease-in;
+    animation: fadeIn .3s ease-in;
+}
+
+.animate-out {
+    -webkit-transition: opacity .3s ease-out;
+    transition: opacity .3s ease-out;
+    opacity: 0;
+}
+
+@-webkit-keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
