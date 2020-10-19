@@ -6,31 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="public/css/styles.css">
     <title>Faq</title>
-
-    <script type="text/javascript">
-        var opacity = 0;
-        var intervalID = 0;
-        window.onload = fadeIn;
-
-        function fadeIn() {
-            setInterval(show, 100);
-        }
-
-        function show() {
-            var body = document.getElementById("body");
-            opacity = Number(window.getComputedStyle(body)
-                .getPropertyValue("opacity"));
-            if (opacity < 1) {
-                opacity = opacity + 0.1;
-                body.style.opacity = opacity
-            } else {
-                clearInterval(intervalID);
-            }
-        } 
-    </script>
+    <link rel="stylesheet" href="public/assets/ico/icofont/icofont.min.css">
+    <script src="public/js/page-transition.js" type="text/javascript"></script>
 </head>
 
-<body id="body" style="opacity: 0; background-color: rgb(0, 0, 0); transition: .1s ease-in;">
+<!-- <body id="body" style="opacity: 0; background-color: rgb(0, 0, 0); transition: .1s ease-in;"> -->
+
+<body class="animate-in">
     <div class="container-grid">
         <div class="back-parallax">
             <!-- <iframe frameborder="0" height="100%" width="100%" src="https://youtube.com/embed/iGpuQ0ioPrM?autoplay=1&controls=0&showinfo=0&autohide=1">
@@ -47,7 +29,7 @@
                         <a href="index.html#content-2">About</a>
                         <a href="index.html#content-3">Coin Specs</a>
                         <a href="#">Mini Roadmap</a>
-                        <a href="#">Community</a>
+                        <a href="index.html#footer">Social Media</a>
                         <a href="#">FAQ</a>
                         <a href="#">The Team</a>
                     </div>
@@ -134,6 +116,8 @@
                 </div>
             </div>
         </main>
+        <a class="page-topo" href="#"><i class="icofont-arrow-up icofont-2x"></i></span></a>
+
     </div>
     <script src="public/js/accordion.js" type="text/javascript"></script>
 </body>
