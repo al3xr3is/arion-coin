@@ -134,25 +134,32 @@ a {
     justify-content: start;
     padding-top: 120px;
     height: 100vh;
+<<<<<<< HEAD
     background-image: url('../assets/arion-coin-specs-bkg.png');
     background-repeat: no-repeat;
     background-position: center bottom;
+=======
+    background-image: url('../assets/arion-coin-spces-bkg.png');
+>>>>>>> be159285f982250b735fdd332aac9080017c320b
     background-size: cover;
 }
 
 .content-4 {
     height: 100vh;
-    background-color: darkorange;
+    background-image: url('../assets/arion-coin-mini-roadmap-bkg.png');
+    background-size: cover;
 }
 
 .content-5 {
     height: 100vh;
-    background-color: hotpink;
+    background-image: url('../assets/arion-coin-social-media-bkg.png');
+    background-size: cover;
 }
 
 .content-6 {
     height: 100vh;
-    background-color: lightsalmon;
+    background-image: url('../assets/arion-coin-the-team-bkg2.png');
+    background-size: cover;
 }
 
 .footer {
