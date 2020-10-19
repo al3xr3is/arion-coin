@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./public/css/styles.css">
+    <link rel="stylesheet" href="public/css/styles.css">
     <title>Faq</title>
 </head>
 
@@ -13,7 +13,7 @@
         <div class="back-parallax">
             <!-- <iframe frameborder="0" height="100%" width="100%" src="https://youtube.com/embed/iGpuQ0ioPrM?autoplay=1&controls=0&showinfo=0&autohide=1">
         </iframe> -->
-            <img src="./public/assets/modelo-1-Arion.png" alt="">
+            <img src="public/assets/modelo-1-Arion.png" alt="">
         </div>
         <header class="header">
             <nav class="navbar">
@@ -22,8 +22,8 @@
                         <i class="fa fa-caret-down"></i>
                     </button>
                     <div class="dropdown-content">
-                        <a href="/src/index.html#content-2">About</a>
-                        <a href="/src/index.html#content-3">Coin Specs</a>
+                        <a href="index.html#content-2">About</a>
+                        <a href="index.html#content-3">Coin Specs</a>
                         <a href="#">Mini Roadmap</a>
                         <a href="#">Community</a>
                         <a href="#">FAQ</a>
@@ -38,11 +38,11 @@
                         <a href="#">Get Arion</a>
                         <a href="#">Get Arion App</a>
                         <a href="https://github.com/arioncoin/arioncoin/releases" target="blank">Get Wallet</a>
-                        <a href="./uploads/arion-woocommerce-payment-gateway.zip" download>Get Plugin</a>
+                        <a href="uploads/arion-woocommerce-payment-gateway.zip" download>Get Plugin</a>
                     </div>
                 </div>
                 <a href="https://arioncoin.com/partners/">PARTNERS</a>
-                <a href="/src/index.html"><img class="logo" src="./public/assets/logo_transparent.png" alt=""></a>
+                <a href="index.html"><img class="logo" src="public/assets/logo_transparent.png" alt=""></a>
                 <a href="https://arioncoin.com/blog/" target="blank">BLOG</a>
                 <a href="https://www.coinexplorer.net/ARION" target="blank">EXPLORER</a>
                 <a href="#news">MASTERNODE ZONE</a>
@@ -103,22 +103,7 @@
             </div>
         </main>
     </div>
-    <script>
-var acc = document.getElementsByClassName("accordion");
-var i;
-
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.maxHeight) {
-      panel.style.maxHeight = null;
-    } else {
-      panel.style.maxHeight = panel.scrollHeight + "px";
-    }
-  });
-}
-    </script>
+    <script src="public/js/accordion.js"></script>
 </body>
 
 </html>
