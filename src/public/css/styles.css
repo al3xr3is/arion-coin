@@ -134,7 +134,7 @@ a {
     justify-content: start;
     padding-top: 120px;
     height: 100vh;
-    background-image: url('../assets/arion-coin-specs-bkg.png');
+    background-image: url('../assets/arion-coin-spces-bkg.png');
     background-size: cover;
 }
 
@@ -146,7 +146,7 @@ a {
 
 .content-5 {
     height: 100vh;
-    background-image: url('../assets/arion-coin-the-team-bkg.png');
+    background-image: url('../assets/arion-coin-social-media-bkg.png');
     background-size: cover;
 }
 
