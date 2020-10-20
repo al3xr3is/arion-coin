@@ -1,8 +1,7 @@
-body {
-  height: 100vh;
-  /* background-color: #ddd; */
+.container-grid-partners {
+  background-image: url('../assets/transparent-gray.png');
+    background-size: cover;
 }
-
 .content-partners {
   display: flex;
   flex-direction: column;
