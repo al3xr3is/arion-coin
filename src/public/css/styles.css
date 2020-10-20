@@ -316,6 +316,7 @@ a {
     background-image: url('../assets/arion-faq-bkg.png');
     background-size: auto;
     background-position: center;
+    font-size: 0.8rem;
 }
 
 .main-faq h1, h2 {
@@ -324,6 +325,8 @@ a {
 
 .main-faq h2 {
     font-weight: 100;
+    font-size: 1.1rem;
+    font-weight: 500;
     color: #00ffc6;
     text-decoration: underline;
 }
