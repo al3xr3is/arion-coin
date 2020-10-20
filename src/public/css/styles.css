@@ -131,17 +131,17 @@ a {
 }
 
 .title {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2em;
-    font-weight: 300;
-    margin-bottom: 20px;
+    font-family: 'Europa', sans-serif;
+    font-size: 1.4em;
+    font-weight: normal;
+    margin-bottom: 30px;
 }
 
 .subtitle {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Europa', sans-serif;
     color: #00ffc6;
-    font-size: 1.8rem;
-    font-weight: 100;
+    font-size: 2rem;
+    font-weight: lighter;
     text-decoration: underline;
 }
 
@@ -149,14 +149,14 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 60px;
+    margin: 50px;
     max-width: 80%;
 }
 
 .content-2 article p {
     font-family: 'Lato', sans-serif;
     text-align: left;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
     font-size: 1.2rem;
     line-height: 1.4em;
     font-weight: 300;
@@ -316,6 +316,7 @@ a {
     background-image: url('../assets/arion-faq-bkg.png');
     background-size: auto;
     background-position: center;
+    font-size: 0.8rem;
 }
 
 .main-faq h1, h2 {
@@ -324,6 +325,8 @@ a {
 
 .main-faq h2 {
     font-weight: 100;
+    font-size: 1.1rem;
+    font-weight: 500;
     color: #00ffc6;
     text-decoration: underline;
 }
