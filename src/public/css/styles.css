@@ -122,8 +122,7 @@ a {
     flex-direction: column;
     align-items: center;
     height: 100vh;
-    /* background-image: url('../assets/arion-about-bkg.png'); */
-    background-color: #282828d0;
+    background-image: url('../assets/transparent-gray.png');
     background-size: cover;
 }
 
@@ -164,32 +163,34 @@ a {
 }
 
 .content-3 {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: start;
-    padding-top: 120px;
+    justify-content: start; */
+    padding-top: 60px;
     height: 100vh;
-    background-image: url('../assets/arion-coin-specs-bkg2.png');
+    background-image: url('../assets/coin-specs-arion-bkg.png');
     background-position: center;
     background-size: cover;
 }
 
 .content-4 {
     height: 100vh;
-    background-image: url('../assets/arion-coin-mini-roadmap-bkg.png');
+    background-image: url('../assets/roadmap-arion-coin.png');
     background-size: cover;
 }
 
 .content-5 {
     height: 100vh;
-    background-image: url('../assets/arion-coin-social-media-bkg.png');
+    background-color: #282828ea;
+    /* background-image: url('../assets/transparent-gray.png'); */
     background-size: cover;
 }
 
 .content-6 {
     height: 100vh;
-    background-image: url('../assets/arion-coin-the-team-bkg.png');
+    background-color: #282828ea;
+    /* background-image: url('../assets/transparent-gray.png'); */
     background-size: cover;
 }
 
@@ -201,7 +202,7 @@ a {
     text-align: center;
     padding-top: 40px;
     height: 100vh;
-    background-color: #282828d0;
+    background-color: #282828ea;
     color: #fff;
 }
 
