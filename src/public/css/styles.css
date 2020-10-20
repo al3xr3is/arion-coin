@@ -122,8 +122,13 @@ a {
     flex-direction: column;
     align-items: center;
     height: 100vh;
-    background-image: url('../assets/arion-about-bkg.png');
+    /* background-image: url('../assets/arion-about-bkg.png'); */
+    background-color: #282828d0;
     background-size: cover;
+}
+
+.content-2 .title {
+    font-size: 1.6rem;
 }
 
 .title {
@@ -194,13 +199,20 @@ a {
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding-top: 40px;
     height: 100vh;
-    background-color: #282828;
+    background-color: #282828d0;
     color: #fff;
 }
 
+.footer p {
+    padding-top: 36px;
+    font-size: 1.8rem;
+    line-height: 2.6rem;
+}
+
 .footer .social-media {
-    margin-top: 40px;
+    margin-top: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
