@@ -165,14 +165,14 @@ a {
     justify-content: start;
     padding-top: 120px;
     height: 100vh;
-    background-image: url('../assets/arion-coin-specs-bkg2.png');
+    background-image: url('../assets/coin-specs-arion-bkg.png');
     background-position: center;
     background-size: cover;
 }
 
 .content-4 {
     height: 100vh;
-    background-image: url('../assets/arion-coin-mini-roadmap-bkg.png');
+    background-image: url('../assets/roadmap-arion-coin.png');
     background-size: cover;
 }
 
