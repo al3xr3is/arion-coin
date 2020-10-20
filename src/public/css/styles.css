@@ -126,6 +126,10 @@ a {
     background-size: cover;
 }
 
+.content-2 .title {
+    font-size: 1.6rem;
+}
+
 .title {
     font-family: 'Europa', sans-serif;
     font-size: 1.4em;
@@ -196,13 +200,20 @@ a {
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding-top: 40px;
     height: 100vh;
     background-color: #282828ea;
     color: #fff;
 }
 
+.footer p {
+    padding-top: 36px;
+    font-size: 1.8rem;
+    line-height: 2.6rem;
+}
+
 .footer .social-media {
-    margin-top: 40px;
+    margin-top: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
