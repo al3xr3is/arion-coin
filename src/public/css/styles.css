@@ -7,17 +7,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Montserrat:wght@100;300;400;700&display=swap');
 
 @font-face {
-    font-family: Europa;
+    font-family: Europa-Regular;
     src: url('../assets/fonts/Europa-Regular.ttf');
     font-weight: normal;
   }
 @font-face {
-    font-family: Europa;
+    font-family: Europa-Light;
     src: url('../assets/fonts/Europa-Light.ttf');
     font-weight: lighter;
   }
 @font-face {
-    font-family: Europa;
+    font-family: Europa-Bold;
     src: url('../assets/fonts/Europa-Bold.otf');
     font-weight: bold;
   }
@@ -53,8 +53,8 @@ a {
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 3fr 3fr 3fr 3fr 3fr 3fr 3fr;
-    grid-template-areas: "header" "content-1" "content-2" "content-3" "content-4" "content-5" "content-6" "footer";
+    grid-template-rows: 1fr 3fr 3fr 3fr 3fr 3fr 3fr;
+    grid-template-areas: "header" "content-1" "content-2" "content-3" "content-4" "content-6" "footer";
 }
 
 .back-parallax {
@@ -131,14 +131,14 @@ a {
 }
 
 .title {
-    font-family: 'Europa', sans-serif;
+    font-family: 'Europa-Light', sans-serif;
     font-size: 1.4em;
     font-weight: normal;
     margin-bottom: 30px;
 }
 
 .subtitle {
-    font-family: 'Europa', sans-serif;
+    font-family: 'Europa-Light', sans-serif;
     color: #00ffc6;
     font-size: 2rem;
     font-weight: lighter;
@@ -200,6 +200,7 @@ a {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    font-family: 'Europa-Light';
 }
 
 
