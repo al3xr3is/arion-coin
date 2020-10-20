@@ -134,8 +134,12 @@ a {
     justify-content: start;
     padding-top: 120px;
     height: 100vh;
+<<<<<<< HEAD
     background-image: url('../assets/arion-coin-specs-bkg.png');
     background-position: center;
+=======
+    background-image: url('../assets/arion-coin-spces-bkg.png');
+>>>>>>> b775386d3e562c37b9c5e9c8bb11c8608fee07a2
     background-size: cover;
 }
 
@@ -147,7 +151,7 @@ a {
 
 .content-5 {
     height: 100vh;
-    background-image: url('../assets/arion-coin-the-team-bkg.png');
+    background-image: url('../assets/arion-coin-social-media-bkg.png');
     background-size: cover;
 }
 
