@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -51,9 +52,10 @@ a {
 
 .container-grid {
     height: 100vh;
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 3fr 3fr 3fr 3fr 3fr 3fr;
+    grid-template-rows: auto auto auto auto auto auto auto;
     grid-template-areas: "header" "content-1" "content-2" "content-3" "content-4" "content-6" "footer";
 }
 
@@ -67,6 +69,11 @@ a {
     width: 100%;
 }
 
+.header-mobile {
+    display: flex;
+    background-color: #282828;
+}
+
 .header {
     margin: auto;
     position: fixed;
@@ -75,9 +82,18 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 60px;
+    height: 100px;
     width: 100%;
     background-color: #00000033;
+    transition: background-color .2s;
+}
+
+#header.BackgroundScrollHide {
+    background-color: #282828;
+}
+
+.navbar-mobile {
+    display: none;
 }
 
 .navbar img {
@@ -132,7 +148,7 @@ a {
 
 .title {
     font-family: 'Europa-Light', sans-serif;
-    font-size: 1.4em;
+    font-size: 1.8em;
     font-weight: normal;
     margin-bottom: 30px;
 }
@@ -200,7 +216,6 @@ a {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    font-family: 'Europa-Light';
 }
 
 
@@ -211,6 +226,9 @@ a {
     align-items: center;
     margin: 10px;
     padding: 10px;
+    font-weight: 100;
+    line-height: 1.4rem;
+    font-family: 'Europa-Light', sans-serif;
 }
 
 .card-body img {
@@ -223,14 +241,16 @@ a {
     line-height: 1.4rem;
 }
 
+.card-center .card-body {
+    font-size: 1.2rem;
+}
+
 .card-center .card-body img {
     margin-bottom: 20px;
     height: 320px;
     width: 320px;
     border-radius: 160px;
     border: 3px solid #fff;
-    font-weight: 100;
-    line-height: 1.4rem;
 }
 
 .footer {
@@ -247,7 +267,7 @@ a {
 
 .footer p {
     padding-top: 36px;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     line-height: 2.6rem;
 }
 
@@ -352,14 +372,18 @@ a {
     flex-direction: column;
     padding: 140px 60px 40px 60px;
     /* background-color: #282828; */
-    background-image: url('../assets/arion-faq-bkg.png');
-    background-size: auto;
+    /* background-image: url('../assets/arion-faq-bkg.png'); */
+    background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
-    font-size: 0.8rem;
 }
 
 .main-faq h1, h2 {
     margin: 0 auto 15px auto;
+}
+
+.main-faq a {
+    color: #00ffc6;
 }
 
 .main-faq h2 {
@@ -377,7 +401,7 @@ a {
     cursor: pointer;
     padding: 18px;
     width: 100%;
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     text-align: left;
     border: none;
     outline: none;
@@ -435,4 +459,39 @@ a {
 @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
+}
+
+/* responsividade */
+
+@media (max-width: 600px) {
+    .header {
+        display: none;
+    }
+    .navbar {
+        display: none;
+    }
+
+    .footer {
+        display: none;
+    }
+
+    .content-1 {
+        display: none;
+    }
+
+    .navbar-mobile {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 16px;
+    }
+
+    .container-grid {
+        height: 100vh;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 3fr 3fr 3fr 3fr;
+        grid-template-areas: "header-mobile" "content-2" "content-3" "content-4" "content-6";
+    }
 }
