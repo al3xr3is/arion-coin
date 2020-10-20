@@ -178,13 +178,13 @@ a {
 
 .content-5 {
     height: 100vh;
-    background-image: url('../assets/transparent-gray.png');
+    background-color: #282828ea;
     background-size: cover;
 }
 
 .content-6 {
     height: 100vh;
-    background-image: url('../assets/transparent-gray.png');
+    background-color: #282828ea;
     background-size: cover;
 }
 
@@ -195,7 +195,7 @@ a {
     align-items: center;
     text-align: center;
     height: 100vh;
-    background-color: #282828;
+    background-color: #282828ea;
     color: #fff;
 }
 
