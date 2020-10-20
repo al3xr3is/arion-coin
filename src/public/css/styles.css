@@ -1,12 +1,31 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Montserrat, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Montserrat:wght@100;300;400;700&display=swap');
+
+@font-face {
+    font-family: Europa;
+    src: url('../assets/fonts/Europa-Regular.ttf');
+    font-weight: normal;
+  }
+@font-face {
+    font-family: Europa;
+    src: url('../assets/fonts/Europa-Light.ttf');
+    font-weight: lighter;
+  }
+@font-face {
+    font-family: Europa;
+    src: url('../assets/fonts/Europa-Bold.otf');
+    font-weight: bold;
+  }
 
 body {
     background-color: #282828;
     color: #fff;
+    line-height: 1.68rem;
 }
 
 a {
@@ -107,13 +126,15 @@ a {
     background-size: cover;
 }
 
-.content-2 .title {
-    font-size: 1.2rem;
-    font-weight: 100;
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    font-weight: 300;
     margin-bottom: 20px;
 }
 
-.content-2 .subtitle {
+.subtitle {
+    font-family: 'Roboto', sans-serif;
     color: #00ffc6;
     font-size: 1.8rem;
     font-weight: 100;
@@ -121,10 +142,20 @@ a {
 }
 
 .content-2 article {
-    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 60px;
+    max-width: 80%;
+}
+
+.content-2 article p {
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+    margin-bottom: 30px;
     font-size: 1.2rem;
-    font-weight: lighter;
-    line-height: 1.4rem;
+    line-height: 1.4em;
+    font-weight: 300;
 }
 
 .content-3 {
@@ -134,12 +165,8 @@ a {
     justify-content: start;
     padding-top: 120px;
     height: 100vh;
-<<<<<<< HEAD
-    background-image: url('../assets/arion-coin-specs-bkg.png');
+    background-image: url('../assets/arion-coin-specs-bkg2.png');
     background-position: center;
-=======
-    background-image: url('../assets/arion-coin-spces-bkg.png');
->>>>>>> b775386d3e562c37b9c5e9c8bb11c8608fee07a2
     background-size: cover;
 }
 
@@ -166,13 +193,10 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     height: 100vh;
     background-color: #282828;
     color: #fff;
-}
-
-.footer span p {
-    line-height: 1.8rem;
 }
 
 .footer .social-media {
