@@ -479,11 +479,54 @@ a {
         display: none;
     }
 
+    /* .header-mobile {
+        min-height: 100px;
+    } */
+
     .navbar-mobile {
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 16px;
+    }
+
+    .navbar-mobile .panel {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .accordion {
+    background-color: #eeeeee11;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.4rem;
+    text-align: center;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    }
+
+    .accordion:after {
+        display: none;
+    }
+
+    .active:after {
+        display: none;
+    }
+
+    .panel {
+    background-color: white transparent;
+    color: #fff;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    }
+
+    .panel a {
+        text-decoration: none;
+        color: #fff;
     }
 
     .container-grid {
