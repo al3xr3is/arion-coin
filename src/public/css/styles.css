@@ -194,6 +194,27 @@ a {
     background-size: cover;
 }
 
+.team-container {
+    padding: 160px 60px 60px 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.team-container .card {
+    margin: 20px;
+}
+
+
+
+.team-container .card .card-body img {
+    height: 160px;
+    width: 160px;
+    border-radius: 80px;
+    border: 3px solid #fff;
+}
+
 .footer {
     display: flex;
     flex-direction: column;
