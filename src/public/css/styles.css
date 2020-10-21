@@ -457,13 +457,13 @@ h2 {
 }
 
 .animate-in {
-    -webkit-animation: fadeIn .3s ease-in;
-    animation        : fadeIn .3s ease-in;
+    -webkit-animation: fadeIn .6s ease-out;
+    animation        : fadeIn .6s ease-out;
 }
 
 .animate-out {
-    -webkit-transition: opacity .3s ease-out;
-    transition        : opacity .3s ease-out;
+    -webkit-transition: opacity .1s;
+    transition        : opacity .1s;
     opacity           : 0;
 }
 
