@@ -1,3 +1,5 @@
-window.addEventListener("beforeunload", function () {
-  document.body.classList.add("animate-out");
+(function pageTransition() {
+  window.addEventListener("beforeunload", function () {
+    document.body.classList.add("animate-out");
   });
+})
