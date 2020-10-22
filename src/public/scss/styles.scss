@@ -35,10 +35,6 @@ body {
     line-height     : 1.68rem;
 }
 
-a {
-    cursor: url('../assets/ponteiro-mouse.png') 2 2, pointer;
-}
-
 .page-topo {
     position        : fixed;
     z-index         : 200;
@@ -67,12 +63,11 @@ a {
 
 .back-parallax {
     position       : fixed;
-    display        : flex;
-    justify-content: center;
-    align-items    : center;
-    z-index        : -30;
-    height         : 100%;
-    width          : 100%;
+    z-index        : -50;
+}
+
+.back-parallax img {
+    width: 100%;
 }
 
 .header-mobile {
