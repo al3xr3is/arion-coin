@@ -324,8 +324,7 @@ body {
     transition      : .3s;
 }
 
-.navbar a:hover:not(:nth-child(4n)),
-.dropdown:hover .dropbtn {
+.navbar > a:hover:not(:nth-child(4n)), .dropdown:hover {
     border-radius   : 4px;
     background-color: #00ffc873;
 }

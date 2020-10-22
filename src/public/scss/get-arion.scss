@@ -9,6 +9,15 @@
   flex-direction: column;
 }
 
+.get-it {
+  position: relative;
+  top: 190px;
+  left: 42.5%;
+  height: 80px;
+  z-index: 300;
+  cursor: pointer;
+}
+
 h1 {
   color: #00ffc6;
   margin: 20px;
