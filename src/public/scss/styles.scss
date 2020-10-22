@@ -307,7 +307,6 @@ body {
     font-size      : 16px;
     color          : white;
     text-align     : center;
-    min-width: 140px;
     padding        : 16px;
     text-decoration: none;
 }
@@ -315,8 +314,6 @@ body {
 .dropdown {
     float   : left;
     overflow: hidden;
-    min-width: 140px;
-    padding: 0 16px 0 16px;
 }
 
 .dropdown .dropbtn {
@@ -331,11 +328,6 @@ body {
     transition      : .3s;
 }
 
-.dropbtn {
-    min-width: 142px;
-}
-
-
 .navbar > a:hover:not(:nth-child(4n)), .dropbtn:hover {
     border-radius   : 4px;
     background-color: #00ffc673;
@@ -346,7 +338,6 @@ body {
     position        : absolute;
     background-color: #282828ee;
     border-radius   : 4px;
-    min-width       : inherit;
     box-shadow      : 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index         : 1;
 }
