@@ -187,14 +187,16 @@ body {
 }
 
 .content-3 {
-    height             : 120vh;
-    background-image   : url('../assets/coin-specs-arion-bkg.png');
+    height             : 100vh;
+    background-image   : url('../assets/arion-coin-spces-bkg22.png');
+    // background-repeat: no-repeat;
     background-position: center;
     background-size    : cover;
 }
 
 .content-4 {
-    height          : 80vh;
+    height          : 100vh;
+    // background-image: url('../assets/roadmap-arion-coin.png');
     background-image: url('../assets/roadmap-arion-coin.png');
     background-size : cover;
 }
