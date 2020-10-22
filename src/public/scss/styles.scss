@@ -283,6 +283,10 @@ body {
     line-height: 2.6rem;
 }
 
+.footer h1 {
+    color: #fff;
+}
+
 .footer .social-media {
     margin-top     : 60px;
     display        : flex;
@@ -384,6 +388,7 @@ body {
     color              : #fff;
     display            : flex;
     flex-direction     : column;
+    text-align: center;
     padding            : 140px 60px 40px 60px;
     /* background-color: #282828; */
     /* background-image: url('../assets/arion-faq-bkg.png'); */
